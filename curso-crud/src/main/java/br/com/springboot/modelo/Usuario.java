@@ -11,16 +11,24 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "usuario")
 public class Usuario {
-	
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String nome;
 	private int idade;
-	
+	private String sobreNomeString;
+
 	public Usuario() {
-	
+
+	}
+
+	public String getSobreNomeString() {
+		return sobreNomeString;
+	}
+
+	public void setSobreNomeString(String sobreNomeString) {
+		this.sobreNomeString = sobreNomeString;
 	}
 
 	public Long getId() {
@@ -63,7 +71,5 @@ public class Usuario {
 		Usuario other = (Usuario) obj;
 		return Objects.equals(id, other.id);
 	}
-	
-	
 
 }
