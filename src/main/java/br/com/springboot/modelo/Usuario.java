@@ -19,23 +19,12 @@ public class Usuario {
 	private int idade;
 	private String sobreNome;
 
-	public Usuario() {
-		
-
-		// tesantando o projeto importado
-		
-		// BRANSH TESTANDO DE NOVOA MEU AMIGO
-		
-		// TAREFA 22222
-		
-		// STAND OS CODIGO DENO
-
+	public Usuario() {		
 
 	}
 
 	public String getSobreNome() {
-		
-		// TESTANDO 2
+	
 		return sobreNome;
 	}
 
