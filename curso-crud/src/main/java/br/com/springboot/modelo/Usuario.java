@@ -20,7 +20,7 @@ public class Usuario {
 	private int idade;
 	
 	public Usuario() {
-		
+		// deveria ter corrigido
 	}
 
 	public Long getId() {
