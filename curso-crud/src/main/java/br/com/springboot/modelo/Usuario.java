@@ -21,6 +21,8 @@ public class Usuario {
 	
 	public Usuario() {
 		// deveria ter corrigido
+		// vte steam
+		
 	}
 
 	public Long getId() {
