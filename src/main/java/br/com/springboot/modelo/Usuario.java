@@ -21,11 +21,11 @@ public class Usuario {
 
 	public Usuario() {
 		
-		// TESTANDO 2 AMIGO DE FÉ MEU IRMÃO CAMARADA
-
 	}
 
 	public String getSobreNome() {
+		
+		// TESTANDO 2
 		return sobreNome;
 	}
 
