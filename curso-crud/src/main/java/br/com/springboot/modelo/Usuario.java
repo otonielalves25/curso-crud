@@ -20,9 +20,7 @@ public class Usuario {
 	private int idade;
 	
 	public Usuario() {
-		// deveria ter corrigido
-		// vte steam
-		
+	
 	}
 
 	public Long getId() {
