@@ -17,18 +17,18 @@ public class Usuario {
 	private Long id;
 	private String nome;
 	private int idade;
-	private String sobreNomeString;
+	private String sobreNome;
 
 	public Usuario() {
 
 	}
 
-	public String getSobreNomeString() {
-		return sobreNomeString;
+	public String getSobreNome() {
+		return sobreNome;
 	}
 
-	public void setSobreNomeString(String sobreNomeString) {
-		this.sobreNomeString = sobreNomeString;
+	public void setSobreNome(String sobreNome) {
+		this.sobreNome = sobreNome;
 	}
 
 	public Long getId() {
