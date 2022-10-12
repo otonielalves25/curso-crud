@@ -20,7 +20,7 @@ public class Usuario {
 	private int idade;
 	
 	public Usuario() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Long getId() {
