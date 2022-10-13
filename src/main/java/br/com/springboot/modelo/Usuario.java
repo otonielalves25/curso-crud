@@ -1,5 +1,6 @@
 package br.com.springboot.modelo;
 
+import java.math.BigDecimal;
 import java.util.Objects;
 
 import javax.persistence.Entity;
@@ -18,12 +19,24 @@ public class Usuario {
 	private String nome;
 	private int idade;
 	private String sobreNome;
-
+	private BigDecimal valorVenda;
+	
+	
 	public Usuario() {		
 		
 		// TESTANDO UM MERGE EN NOVO SISTEMA
 
 	}
+
+	public BigDecimal getValorVenda() {
+		return valorVenda;
+	}
+
+	public void setValorVenda(BigDecimal valorVenda) {
+		this.valorVenda = valorVenda;
+	}
+
+
 
 	public String getSobreNome() {
 	
